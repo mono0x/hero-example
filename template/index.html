@@ -1,0 +1,11 @@
+<%: func RenderIndex(users []string, w io.Writer) %>
+
+<%~ "layout.html" %>
+
+<%@ body { %>
+  <ul>
+    <% for _, user := range users { %>
+      <%+ "user.html" %>
+    <% } %>
+  </ul>
+<% } %>

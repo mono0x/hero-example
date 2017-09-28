@@ -1,0 +1,6 @@
+package: github.com/mono0x/hero-example
+import:
+- package: github.com/shiyanhui/hero
+  version: v0.0.1
+  subpackages:
+  - hero
